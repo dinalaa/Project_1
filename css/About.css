@@ -103,66 +103,121 @@ color: #615cfd;
 
 }
 .content .header {
-    background-image: url('../images/gro.png');
-    background-repeat: no-repeat;
+    background-image: url('https://colorlib.com/preview/theme/startup2/img/banner/banner2.png');
+    background-image: linear-gradient(#af5656);
+    background-position: center;
+    background-size: 100%;
     background-size: cover;
-    height: 400px;
-    float: left;
-    font-size: 50px;
-    padding-top: 200px;
-    border: 0;
-    
-}
-.content .header::after {
-    background-color: #000;
-}
-
-.content .header h1{
-    color: #ffffff;
-}
-
-/*--end section 1--*/
-/*-- section 2 service--*/
-
-.content .service{
-    text-align: center;
-    margin-top: 100px;
-}
-.content .service h4{
-    color: blue;
-    font-size: 15px;
-}
-.content .service p{ 
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 900px;
+    margin: 0px;
+    padding: 0px;
     font-size: 40px;
-}
-
-/*-- end section 2 --*/
-/*-- section 3 icon --*/
-
-.content .lcon{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    box-shadow: 40px;
-
-}
-.content .lcon .design{
-    border: 1px solid #a7cfc7e3;
-    padding: 40px;
-    margin: 40px;
-    text-align: center;
-    border-radius:10px;
+    padding-top: 200px;
     
-   
 }
-.content .lcon .design p{
+.content .header h1{
+    position: absolute;
+    color: #ece3e3;
+    left: 10%;
+    
+}
+.content .header button{
+    width: 200px;
+    height: 50px;
+    top: 500px;
+    left: 150px;
+    font-size: 20px;
+    border-radius:20px;
+    position: absolute;
+    background-color: #1d3b75;
+}
+.content .header button:hover{
+    border: 1px solid transparent;
+    
+}
+/*--end section 1--*/
+/*-- section 2 --*/
+.content .Mission{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    height: 300px;
+    margin-top: 100px;
 
-    line-height: 30px;
-    color: #80a7b1;
+}
+.content .Mission h2{
+    color: #00008b;
+    text-align: center;
+}
+.content .Mission p{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #727272;
+    margin-bottom: 15px;
+    font-family: muli,sans-serif;
+
+}
+/*--end section2--*/
+/*-- section 3 --*/
+.content .About-Us{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.content .About-Us img{
+    width: 700px;
+    padding: 20px;
+    border: 1px solid #a7cfc7e3;
+    border-radius:20px;
+}
+.content .About-Us .mater{
+    color: #ffffff;
+    background-color: #080808;
+    border-radius: 20px;
+    font-size: 20px;
+    line-height: 36px;
+    padding-top: 100px;
+    padding-left: 100px;
+    
+}
+.content .About-Us .mater span{
+    font-size: 15px;
+    
+}
+.content .About-Us .mater h3{
+    font-size:30px ;
+
+}
+.content .About-Us .mater p{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #727272;
+    margin-bottom: 15px;
+    font-family: muli,sans-serif;
+
+
+}
+.content .About-Us .mater button{
+    width: 200px;
+    height: 50px;
+    top: 500px;
+    left: 150px;
+    font-size: 20px;
+    border-radius:20px;
+    background-color: #615cfd;
+    color: #ffffff;
+
+}
+.content .About-Us .mater button:hover{
+    background-color: #30131300;
+    background-color:none;
+    border: 1px solid transparent;
 }
 
-/*--end section 3-- */
-/*-- section 4 how we work--*/
-
+/*--end section 3--*/
+/* -- start section 4  --*/
 .content .work {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -175,7 +230,7 @@ color: #615cfd;
     line-height: 30px;
 
 }
-.content .work .how h1{
+.content .work .how h4{
     font-size: 60px;
     line-height: 50px;
 
@@ -197,9 +252,109 @@ color: #615cfd;
     border-radius:20px;
 
 }
+/*--end section 4--*/
+/* -- start section 5  --*/
 
-/*--end section 4-- */
-/* -- section 5 some info--*/
+.content .team h2{
+    font-size: 40px;
+    font-weight: 500;
+    text-align: center;
+    color: #8a2be2;
+}
+.content .team p{
+    font-size:20px;
+    font-weight: 500;
+    text-align: center;
+    color: #ffffff;
+    padding: 10px;
+}
+
+.content .team .container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    max-width: 1140px;
+    margin: auto;
+    position: relative;
+    min-height: 1px;
+    padding-top: 20px;
+}
+.content .team {
+    padding: 60px 15px;
+    background-color: #22252a;
+    float: left;
+    width: 100%;
+
+}
+.content .team .card{
+    width: 80%;
+    float: left;
+    padding: 0px 15px;
+}
+@media(max-width:991px){
+    .content .team .card {
+        width:50%;
+        margin-bottom:30px ;
+    }
+}
+@media(max-width:550px){
+    .content .team .card {
+        max-width:100%;
+    }
+}
+.content .team .card .box{
+    padding: 0px;
+    background-color: #2d3035;
+    border-radius: 5px;
+    padding-top: 5px;
+    transition: margin 1s ease,box-shadw 1s ease;
+
+}
+.content .team .card .box:hover{
+    margin-top: 15px;
+    box-shadow: 0px 0px 40px #000000;
+}
+.content .team .card .box img{
+    width: 150px;
+    display: block;
+    margin: 10px auto;
+    border-radius: 20px;
+
+}
+.content .team .card .box h1{
+    font-size: 20px;
+    margin: 15px 0px 10px;
+    color: #ea5e71;
+    text-align: center;
+    font-weight: 700;
+
+
+}
+.content .team .card .box p{
+    font-size: 12px;
+    font-weight: 600;
+    color: #b9b9b9;
+    text-align: center;
+}
+.content .team .card .box .socail_links{
+    text-align: center;
+    text-decoration: none;
+    
+}
+.content .team .card .box .socail_links ul{
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding:20px;
+}
+.content .team .card .box .socail_links ul li{
+    border-radius:20px;
+}
+.content .team .card .box .socail_links ul i:hover{
+    color: #615cfd;
+}
+
+/*--end section 5--*/
+/* -- section 6 some info--*/
 
 .content .info{
     background-image:url(https://colorlib.com/preview/theme/startup2/img/testmonial/banner.png);
@@ -220,15 +375,16 @@ color: #615cfd;
    0% {
        letter-spacing: 30px;
        margin-bottom: -10px;
-      }
+    }
    30% {
     letter-spacing: 4px;
 
-       }
+    }
 }
 
-/*--end section 5--*/
-/*-- section 6 make form to let massage to us--*/
+/*--end section 6--*/
+
+/*-- section 7 make form to send massage to us--*/
 
 .content .Massage{
     text-align: center;
@@ -266,22 +422,24 @@ color: #615cfd;
     padding: 15px;
     margin-left: 170px;
     
+    
 }
 
 .content .Massage form .two button{
     width: 1000px;
     height: 50px;
-    font-size: 30px;
     border-radius:20px;
+    font-size: 30px;
     background-color: #43439b;
+    
 }
 .content .Massage form .two button:hover{
     background-color: #ffffff;
     border-color: #8a2be2;
+    
 }
-/*--end section 6--*/
+/*--end section 7--*/
 /*-- end section --*/
-/*--end content --*/
 
 /*-- give footrt some style --*/
 footer{
@@ -335,7 +493,6 @@ footer .end .socail_links{
 }
 footer .end .socail_links li{
     border-color: #f0f8ff;
-    border-radius: 50%;
 
 
 
@@ -361,4 +518,3 @@ footer  p span{
 }
 
 /*-- end footer --*/
-/*-- end css style --*/
