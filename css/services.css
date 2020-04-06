@@ -127,7 +127,16 @@ color: #615cfd;
 .content .service{
     text-align: center;
     margin-top: 100px;
+   //*-- opacity: 0;
+    transition: 0.5s all ease-in-out; --*/
 }
+/*--
+.content .service-appear {
+    opacity: 1;
+    transform: translate(0px);
+
+}
+--*/
 .content .service h4{
     color: blue;
     font-size: 15px;
@@ -151,9 +160,18 @@ color: #615cfd;
     margin: 40px;
     text-align: center;
     border-radius:10px;
+   /*-- opacity: 0;
+    transition: 0.5s all ease-in-out;--*/
     
    
 }
+/*--
+.content .lcon .design-appear{
+    opacity: 1;
+    transform: translate(0px);
+
+}
+--*/
 .content .lcon .design p{
 
     line-height: 30px;

@@ -131,10 +131,11 @@ color: #615cfd;
     font-size: 20px;
     border-radius:20px;
     position: absolute;
-    background-color: #1d3b75;
+    background-color: #0b2863;
 }
 .content .header button:hover{
     border: 1px solid transparent;
+    background-color: #d8d3cc;
     
 }
 /*--end section 1--*/
@@ -306,12 +307,13 @@ color: #615cfd;
     background-color: #2d3035;
     border-radius: 5px;
     padding-top: 5px;
-    transition: margin 1s ease,box-shadw 1s ease;
+    transition: margin 1s ease, box-shadw 1s ease;
 
 }
 .content .team .card .box:hover{
     margin-top: 15px;
     box-shadow: 0px 0px 40px #000000;
+    
 }
 .content .team .card .box img{
     width: 150px;
@@ -404,13 +406,14 @@ color: #615cfd;
 .content .Massage form{
     display: grid;
     grid-template-columns:1fr;
+    transition-duration: 2s;
 }
+
 .content .Massage form .one input{
     border-radius:30px;
     width: 300px;
     height: 50px;
     padding: 15px;
-    margin-bottom: 25px;
 }
 .content .Massage form .two input{
     display: grid;  
@@ -431,6 +434,7 @@ color: #615cfd;
     border-radius:20px;
     font-size: 30px;
     background-color: #43439b;
+    transition-duration: 2s;
     
 }
 .content .Massage form .two button:hover{
@@ -518,3 +522,4 @@ footer  p span{
 }
 
 /*-- end footer --*/
+/*-- end css style --*/
