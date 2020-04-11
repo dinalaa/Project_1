@@ -1,0 +1,702 @@
+/*style of the nav*/
+.main-nav{
+    display: grid;
+    grid-template-columns:1fr 3fr 1fr;
+    grid-gap:5px;
+    margin: 0px;
+    padding: 0px;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    left: 0;
+    position: absolute;
+    top:0;
+
+}
+.main-nav img
+{
+    padding-left: 30px;
+    padding-top: 20px
+}
+.main-nav div > a
+{
+    float: right;
+    color: #fff;
+    text-align: end;
+    margin-top: 28px;
+    margin-right: 50px;
+    border-bottom: 2px solid #615cfd ;
+    padding-bottom: 12px;
+    text-decoration: none;
+}
+
+
+.main-nav .logo > p{
+    float: left;
+    
+}
+.main-nav ul{
+    float: left;
+    list-style: none;
+    display: inline-flex;
+    
+}
+.main-nav ul li{
+    width: 100px;
+    margin: 15px;
+    padding: 15px;
+    
+
+}
+.main-nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+.main-nav ul li a:hover{
+color: #615cfd;
+}
+.main-nav ul li:hover{
+    border-radius: 3px;
+}
+.main-nav .mainchild{
+    display: none;
+}
+.main-nav .mainchild li > a 
+ {
+        color : black 
+}
+
+.main-nav ul li:hover .mainchild{
+    display: block;
+    position: absolute;
+    background: rgb(240, 239, 239);
+    margin-top: 15px;
+    margin-left: -15px;
+    
+}
+.main-nav ul li:hover .mainchild ul{
+    display: block;
+    margin: 15px;
+
+}
+/*css code for the body*/
+body{width: 100%}
+/*css code for the cover*/
+cover{width:100% ;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh; 
+    background: url(img/bradcam.png) no-repeat center center; 
+    background-size: cover;
+}
+/*css code for the cover-text*/
+.cover-text{
+    color: #fff;
+    font-size: 4rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+/*style of the text*/
+.text{
+    margin: 100px 0;}
+    .title{
+    font-size: 28px;
+    color: #0e0101;
+    padding: 10px;
+     width: 300px;
+     position: relative;
+    left: 80px;
+   
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+}
+/*style of the contact*/
+.Contact{
+     position:relative;
+    left: 80px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #727272;
+    margin-bottom: 13px;
+    font-family: muli,sans-serif;
+
+ padding: 10px;
+    width: 1055px; 
+}
+/*style of that tags*/
+b, del, sup, sub, ins{color: red;}
+/*style of the table*/
+.table{
+    
+    
+    font-size: 28px;
+    color: #0e0101;
+    padding: 10px;
+     width: 300px;
+     position: relative;
+    left: 80px;
+   
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+}
+/*style of the general linnk*/
+.btn  a{margin-right: 10px;
+    margin-top: 10px;
+    display: inline-block;
+    outline: none;
+    line-height: 40px;
+    padding: 0 30px;
+    font-size: .8em;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 500;
+    cursor: pointer;
+   
+}
+/*style of the buttons*/
+.btn{  position: relative;
+    left: 80px;}
+ .btn1{
+
+    color: #415094;
+    background-color:  #f9f9ff;
+    border: 1px solid transparent;}
+  .btn1:hover{margin-right: 10px;
+    margin-top: 10px;
+    border: 1px solid #f9f9ff;
+    background: #fff; }  
+
+    .btn2{margin-right: 10px;
+    margin-top: 10px;
+       color: #fff;
+     background: #ff5e13;
+    border: 1px solid transparent;
+
+}
+
+.btn2:hover{ color: #ff5e13;
+    border: 1px solid #ff5e13;
+    background: #fff;
+    }
+
+
+.btn3 {
+    color: #fff;
+    background: #4cd3e3;
+    border: 1px solid #4cd3e3;}
+
+.btn3:hover {margin-right: 10px;
+    margin-top: 10px;
+
+    color: #4cd3e3;
+    border: 1px solid #4cd3e3;
+    background: #fff
+    }
+.btn4{margin-right: 10px;
+    margin-top: 10px;
+ color: #fff;
+    background: #38a4ff;
+    border: 1px solid transparent;
+}
+.btn4:hover{ color: #38a4ff;
+    border: 1px solid #38a4ff;margin-right: 10px;
+    margin-top: 10px;
+    background: #fff;
+}
+
+   
+.btn5{
+margin-right: 10px;
+    margin-top: 10px;
+    color: #fff;
+    background: #f4e700;
+    border: 1px solid transparent;}
+
+   .btn5:hover{  color: #f4e700;
+    border: 1px solid #f4e700;margin-right: 10px;
+    margin-top: 10px;
+    background: #fff;}
+
+.btn6{
+    background: #fff;margin-right: 10px;
+    margin-top: 10px;
+
+    color: #fff;
+    background: #f44a40;
+    border: 1px solid transparent;}
+
+    .btn6:hover {color: #f44a40;
+    border: 1px solid #f44a40;background: #fff;
+    }
+    .btn7{
+margin-right: 10px;
+    margin-top: 10px;
+
+    color: #415094;
+    background: #f9f9ff;
+    text-decoration: underline;
+    border: 1px solid transparent;
+} 
+.btn7:hover {color: #415094;
+    border: 1px solid #f9f9ff;margin-right: 10px;
+    margin-top: 10px;
+    background: #fff;
+    text-decoration: underline;
+    }
+ 
+
+
+
+.btn9 {margin-right: 10px;
+    margin-top: 10px;
+    border: 1px solid #f9f9ff;
+    background: #fff; }
+    .btn9:hover {color: #415094;
+    background-color:  #f9f9ff;
+    border: 1px solid transparent;
+    } 
+.btn10{
+    color: #ff5e13;
+    border: 1px solid #ff5e13;
+    background: #fff;
+}
+
+.btn10:hover{margin-right: 10px;
+    margin-top: 10px;
+       color: #fff;
+     background: #ff5e13;
+    border: 1px solid transparent;}
+.btn11{margin-right: 10px;
+    margin-top: 10px;
+
+    color: #4cd3e3;
+    border: 1px solid #4cd3e3;
+    background: #fff;}
+    .btn11:hover{color: #fff;
+    background: #4cd3e3;
+    border: 1px solid #4cd3e3;}
+.btn12{
+     
+    color: #38a4ff;
+    border: 1px solid #38a4ff;margin-right: 10px;
+    margin-top: 10px;
+    background: #fff;}
+    .btn12:hover{margin-right: 10px;
+    margin-top: 10px;
+ color: #fff;
+    background: #38a4ff;
+    border: 1px solid transparent;}
+    .btn13{
+
+    color: #f4e700;
+    border: 1px solid #f4e700;margin-right: 10px;
+    margin-top: 10px;
+    background: #fff;
+}
+.btn13:hover{
+margin-right: 10px;
+    margin-top: 10px;
+    color: #fff;
+    background: #f4e700;
+    border: 1px solid transparent;}
+.btn14 {
+    color: #f44a40;
+    border: 1px solid #f44a40;
+    background: #fff;}
+    .btn14:hover{
+    background: #fff;margin-right: 10px;
+    margin-top: 10px;
+
+    color: #fff;
+    background: #f44a40;
+    border: 1px solid transparent;}
+.btn15{color: #415094;
+    border: 1px solid #f9f9ff;margin-right: 10px;
+    margin-top: 10px;
+    background: #fff;
+    text-decoration: underline;}
+    .btn15:hover{
+margin-right: 10px;
+    margin-top: 10px;
+
+    color: #415094;
+    background: #f9f9ff;
+    text-decoration: underline;
+    border: 1px solid transparent;}
+    .btn18{
+
+    color: #415094;
+    background: #f9f9ff;
+    border: 1px solid transparent;
+
+    border-radius: 20px;margin-right: 10px;
+    margin-top: 10px;
+}.btn18:hover{margin-right: 10px;
+    margin-top: 10px;
+    color: #f9f9ff
+    border: 1px solid #f9f9ff;
+    background: #fff;
+    border-radius: 20px;}
+    .btn19:hover{margin-right: 10px;
+    margin-top: 10px;
+
+    color: #ff5e13;
+    background: #fff;
+    border: 1px solid #ff5e13;
+    }
+   .btn19{
+
+    color: #fff;
+    background: #ff5e13;
+    border: 1px solid transparent;
+
+    border-radius: 20px;margin-right: 10px;
+    margin-top: 10px;
+}.btn20:hover{margin-right: 10px;
+    margin-top: 10px;
+color: #4cd3e3;
+ border: 1px solid #4cd3e3;
+    background: #fff;
+    border-radius: 20px;}
+
+   
+   .btn20{
+    color: #fff;
+    background: #4cd3e3;
+    border: 1px solid transparent;
+
+    border-radius: 20px;margin-right: 10px;
+    margin-top: 10px;
+
+
+   }.btn21:hover{margin-right: 10px;
+    margin-top: 10px;color: #38a4ff;
+ border: 1px solid #38a4ff;
+    background: #fff;
+    border-radius: 20px;}
+   .btn21{
+
+    color: #fff;
+    background: #38a4ff;
+    border: 1px solid transparent;
+
+    border-radius: 20px;margin-right: 10px;
+    margin-top: 10px;
+
+
+   }.btn22:hover{margin-right: 10px;
+    margin-top: 10px;
+color: #f4e700;
+ border: 1px solid #f4e700;
+    background: #fff;
+    border-radius: 20px;}
+   .btn22{color: #fff;
+    background: #f4e700;
+    border: 1px solid transparent;margin-right: 10px;
+    margin-top: 10px;
+
+    border-radius: 20px;}
+    .btn23:hover{margin-right: 10px;
+    margin-top: 10px;color: #f44a40;
+ border: 1px solid #f44a40;
+    background: #fff;
+    border-radius: 20px;}
+   .btn23{margin-right: 10px;
+    margin-top: 10px;
+
+    color: #fff;
+    background: #f44a40;
+    border: 1px solid transparent;
+
+    border-radius: 20px;
+
+
+   }
+   .btn24:hover{margin-right: 10px;
+    margin-top: 10px; color: #415094;
+    border: 1px solid #f9f9ff;
+    background: #fff;
+    text-decoration: underline;
+
+    border-radius: 20px;}
+   .btn24{
+    margin-right: 10px;
+    margin-top: 10px;
+    
+
+    color: #415094;
+    background: #f9f9ff;
+    text-decoration: underline;
+    border: 1px solid transparent;
+
+    border-radius: 20px;
+}
+.btn215:hover{margin-right: 10px;
+    margin-top: 10px; color: #415094;
+    border: 1px solid #415094;
+    background: #fff;
+    text-decoration: underline;
+
+    border-radius: 20px;
+
+       }
+
+.btn26{margin-right: 10px;
+    margin-top: 10px;
+    color: #f9f9ff
+    border: 1px solid #f9f9ff;
+    background: #fff;
+    border-radius: 20px;
+}
+
+
+ .btn26:hover{
+    color: #415094;
+    background: #f9f9ff;
+    border: 1px solid transparent;
+
+    border-radius: 20px;margin-right: 10px;
+    margin-top: 10px;}
+.btn27:hover{    color: #fff;
+    background: #ff5e13;
+    border: 1px solid transparent;
+
+    border-radius: 20px;margin-right: 10px;
+    margin-top: 10px;}
+.btn27{margin-right: 10px;
+    margin-top: 10px;color: #ff5e13;
+ border: 1px solid #ff5e13;
+    background: #fff;
+    border-radius: 20px;}
+    .btn28:hover{
+    color: #fff;
+    background: #4cd3e3;
+    border: 1px solid transparent;
+
+    border-radius: 20px;margin-right: 10px;
+    margin-top: 10px;
+}
+.btn28{margin-right: 10px;
+    margin-top: 10px;
+color: #4cd3e3;
+ border: 1px solid #4cd3e3;
+    background: #fff;
+    border-radius: 20px;}
+.btn29 {margin-right: 10px;
+    margin-top: 10px;color: #38a4ff;
+ border: 1px solid #38a4ff;
+    background: #fff;
+    border-radius: 20px;}
+    .btn29:hover{ color: #fff;
+    background: #38a4ff;
+    border: 1px solid transparent;
+
+    border-radius: 20px;margin-right: 10px;
+    margin-top: 10px;}
+.btn30{margin-right: 10px;
+    margin-top: 10px;
+color: #f4e700;
+ border: 1px solid #f4e700;
+    background: #fff;
+    border-radius: 20px;}
+    .btn30:hover{color: #fff;
+    background: #f4e700;
+    border: 1px solid transparent;margin-right: 10px;
+    margin-top: 10px;
+
+    border-radius: 20px;}
+.btn31{margin-right: 10px;
+    margin-top: 10px;color: #f44a40;
+ border: 1px solid #f44a40;
+    background: #fff;
+    border-radius: 20px;}
+    .btn31:hover{margin-right: 10px;
+    margin-top: 10px;
+
+    color: #fff;
+    background: #f44a40;
+    border: 1px solid transparent;
+
+    border-radius: 20px;}
+.btn32{   margin-right: 10px;
+    margin-top: 10px; color: #415094;
+    border: 1px solid #f9f9ff;
+    background: #fff;
+    text-decoration: underline;
+
+    border-radius: 20px;
+}
+.btn32:hover{margin-right: 10px;
+    margin-top: 10px;
+    
+
+    color: #415094;
+    background: #f9f9ff;
+    text-decoration: underline;
+    border: 1px solid transparent;
+
+    border-radius: 20px;}
+.btn34{margin-right: 10px;
+    margin-top: 10px;
+    color: #fff;
+    background: #ff5e13;
+    border: 1px solid transparent;
+
+    padding: 0 40px;
+    line-height: 50px;
+}
+.btn34:hover{margin-right: 10px;
+    margin-top: 10px;
+    color: #ff5e13;
+    border: 1px solid #ff5e13;
+    background: #fff;
+
+    padding: 0 40px;
+    line-height: 50px;}
+.btn35{margin-right: 10px;
+    margin-top: 10px;
+
+    color: #fff;
+    background: #4cd3e3;
+    border: 1px solid transparent;
+    line-height: 45px;}
+    .btn35:hover{margin-right: 10px;
+    margin-top: 10px;
+
+    color: #4cd3e3;
+    border: 1px solid #4cd3e3;
+    background: #fff;
+    line-height: 45px;}
+.btn36{margin-right: 10px;
+    margin-top: 10px;
+    color: #fff;
+    background: #ff5e13;
+    border: 1px solid transparent;}
+    .btn36:hover{ color: #ff5e13;
+    border: 1px solid #ff5e13;
+    background: #fff;
+    margin-right: 10px;
+    margin-top: 10px;}
+.btn37{
+    background: #4cd3e3;
+    border: 1px solid transparent;
+margin-right: 10px;
+    margin-top: 10px;
+  color: #fff;
+    line-height: 30px;}
+    .btn37:hover{  color: #4cd3e3;
+    border: 1px solid #4cd3e3;
+    background: #fff;
+margin-right: 10px;
+    margin-top: 10px;
+    line-height: 30px;}
+    .btn38{margin-right: 10px;
+    margin-top: 10px;
+    color: #ff5e13;
+    border: 1px solid #ff5e13;
+    background: #fff;
+
+    padding: 0 40px;
+    line-height: 50px;
+}.btn38:hover{margin-right: 10px;
+    margin-top: 10px;
+    color: #fff;
+    background: #ff5e13;
+    border: 1px solid transparent;
+
+    padding: 0 40px;
+    line-height: 50px;}
+      .btn39{
+        margin-right: 10px;
+    margin-top: 10px;
+
+    color: #4cd3e3;
+    border: 1px solid #4cd3e3;
+    background: #fff;
+    line-height: 45px;}
+.btn39:hover{margin-right: 10px;
+    margin-top: 10px;
+
+    color: #fff;
+    background: #4cd3e3;
+    border: 1px solid transparent;
+    line-height: 45px;}
+
+        .btn40{
+
+    color: #ff5e13;
+    border: 1px solid #ff5e13;
+    background: #fff;
+
+    margin-right: 10px;
+    margin-top: 10px;
+}
+   
+.btn40:hover{margin-right: 10px;
+    margin-top: 10px;
+    color: #fff;
+    background: #ff5e13;
+    border: 1px solid transparent;}
+.btn41{
+    color: #4cd3e3;
+    border: 1px solid #4cd3e3;
+    background: #fff;
+margin-right: 10px;
+    margin-top: 10px;
+    line-height: 30px;}
+    .btn41:hover{background: #4cd3e3;
+    border: 1px solid transparent;
+margin-right: 10px;
+    margin-top: 10px;
+  color: #fff;
+    line-height: 30px;}
+/*style of the left*/
+.left{ margin: 100px 0;}
+/*style of the head*/
+.head{font-size: 28px;
+    color: #0e0101;
+    padding: 10px;
+     width: 300px;
+     position: relative;
+    left: 80px;
+   
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   }
+   /*style of the first*/
+
+.first{display: grid;
+    grid-template-columns: 350px 750px ;
+    grid-gap: 50px;}
+    
+
+   .first img{ position: relative; left: 80px;
+
+   }
+   .first p{
+
+    font-weight: 400;
+    font-size: 16px; 
+    line-height: 28px;
+    color: #727272;
+    margin-bottom: 13px;
+    font-family: muli,sans-serif;}
+
+ /*style of the right*/   
+.right{margin: 100px 0;}
+/*style of the secand*/
+.secand{display: grid;
+    grid-template-columns: 750px 350px ;
+    grid-gap: 110px;
+
+   }
+
+   .secand p {    font-weight: 400;
+    font-size: 16px; 
+    line-height: 28px;
+    color: #727272;
+    margin-bottom: 13px;
+    font-family: muli,sans-serif;
+ position: relative;
+    left: 80px;
+   }
