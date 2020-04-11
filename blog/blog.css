@@ -1,0 +1,506 @@
+/*-- start css grid style --*/
+*
+{
+    margin-top: 0;
+    padding: 0;
+    box-sizing: border-box;
+        
+}
+body{
+    font-family: muli,sans-serif
+    
+}
+/*-- give nav some style --*/
+.main-nav{
+    display: grid;
+    grid-template-columns:1fr 3fr 1fr;
+    grid-gap:5px;
+    margin: 0px;
+    padding: 0px;
+    background-color: #000000;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+.main-nav img
+{
+    padding-left: 30px;
+    padding-top: 20px
+}
+.main-nav div > a
+{
+    float: right;
+    color: #fff;
+    text-align: end;
+    margin-top: 28px;
+    margin-right: 50px;
+    border-bottom: 2px solid #615cfd ;
+    padding-bottom: 12px;
+    text-decoration: none;
+}
+
+
+.main-nav .logo > p{
+    float: left;
+    
+}
+.main-nav ul{
+    float: left;
+    list-style: none;
+    display: inline-flex;
+    
+}
+.main-nav ul li{
+    width: 100px;
+    margin: 15px;
+    padding: 15px;
+    
+
+}
+.main-nav ul li a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.main-nav ul li a:hover{
+color: #615cfd;
+}
+.main-nav ul li:hover{
+    border-radius: 3px;
+}
+.main-nav .mainchild{
+    display: none;
+}
+.main-nav .mainchild li > a  {
+        color : #000000 
+}
+
+.main-nav ul li:hover .mainchild{
+    display: block;
+    position: absolute;
+    background: #f0efef;
+    margin-top: 15px;
+    margin-left: -15px;
+    
+}
+.main-nav ul li:hover .mainchild ul{
+    display: block;
+    margin: 15px;
+
+}
+/*--end nav style-- */
+
+/*--start content --*/
+/*-- start style section --*/
+/*-- section 1 header--*/
+.content {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.content .header{
+    background-image: url('https://colorlib.com/preview/theme/startup2/img/banner/bradcam_3.png');
+    height: 500px;
+    background-repeat: no-repeat;
+}
+.content .header p{
+    font-size: 100px;
+    margin: 200px;
+    float: left;
+    margin-left: 15%;
+
+    
+}
+.content .header p:hover{
+    color: #c459c0;
+}
+
+/*-- end section 1 --*/
+/*-- section 2  --*/
+
+
+
+
+.content .container{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    box-sizing: border-box;
+    
+    
+}
+/*-- start first Div  in section 2 --*/
+.content .container .bags{
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+    
+    
+}
+.content .container .bags .bag {
+    margin: 30px;
+}
+.content .container .bags .bag .item{
+    font-size: 20px;
+    font-weight: 600;
+    width:70px;
+    color: #e7b5b5;
+    position: absolute;
+    right: 87%;
+    margin-top: 25%;
+    border-radius: 20px;
+    text-decoration: none;
+    
+}
+.content .container .bags .bag .item h3 {
+    font-size: 20px;
+    margin-bottom: 8px;
+    
+    
+}
+.content .container .bags .bag .item:hover{
+    color:#8a2be2 ;
+    border: none;
+    
+}
+.content .container .bags .bag .back{
+    text-decoration: none;
+    
+}
+.content .container .bags .bag .back h2{
+    padding: 30px;
+    color: #2b2727;
+    
+}
+.content .container .bags .bag .back h2:hover {
+    color: #60328b;
+}
+.content .container .bags .bag .mad{
+    color: #285557;
+    left: 20%;
+
+}
+.content .container .bags .bag  li{
+    list-style: none;
+    display: inline;
+    
+}
+.content .container .bags .bag  li a{
+    text-decoration: none;
+    margin: 5px;
+    
+    color: #925a5a;
+}
+.content .container .bags .bag  li a:hover{
+    color: #8a67ac;
+}
+
+/*-- the second Div  in section 2--*/
+.content .container .haves{
+    box-sizing: border-box;
+    display: block;
+    
+} 
+.content .container .haves .hav1{
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 40px;
+    width: 300px;
+     background-color: #fbf9ff; 
+    
+}
+.content .container .haves .hav1 input{
+    height: 50px;
+    padding: 30px;
+    margin-bottom: 30px;
+    
+}
+.content .container .haves .hav1 button{
+    height: 50px;
+    text-align: center;
+    background: #fbf9ff;
+    border-color: #4b4ba7;
+    padding-top: 0px;
+    margin-bottom: 30px;
+    
+}
+.content .container .haves .hav1 button:hover{
+    background-color: #9428ca;
+    color: #faf2f2;
+}
+/*-- end first Div  in section 2 --*/
+/*--  Div 2  in section 2 --*/
+
+.content .container .haves .hav2{
+    background-color: #fbf9ff;
+    margin-top: 40px;
+    width: 70%;
+    
+}
+.content .container .haves .hav2 H2{
+    font-size: 20px;
+    margin-left: 10px;
+    padding-top: 20px;
+}
+.content .container .haves .hav2 hr{
+    font-size: 10px;
+}
+.content .container .haves .hav2 .list{
+    margin-left: 20px;
+
+}
+.content .container .haves .hav2 .list li{
+    list-style: none;
+    border-bottom: 1px solid #f0e9ff;
+    transition: all .3s ease 0s;
+    margin-top: 30px;
+    
+}
+.content .container .haves .hav2 .list li p {
+    display: inline-block;
+    color: #a29bb1;
+}
+.content .container .haves .hav2 .list li p:hover {
+    color: #8962ad;
+}
+
+.content .container .haves .hav3 {
+    background-color: #fbf9ff;
+    margin-top: 50px;
+    width: 70%;
+}
+
+.content .container .haves .hav3 h4{
+    font-size: 20px;
+    margin-left: 10px;
+    padding-top: 20px;
+
+}
+.content .container .haves .hav3 hr{
+    font-size: 10px;
+    margin-left: 10px;
+    width: 70%;
+}
+.content .container .haves .hav3 .media{
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 20px;
+    margin-left: 30px;
+    
+
+}
+
+.content .container .haves .hav3 .media .media-post .writer{
+    float: right ;
+    margin: 0px;
+    padding: 0px;
+    margin-top: 10px;
+    
+}
+.content .container .haves .hav3 .media .media-post .writer h5{
+    display: inline-block;
+    color: #000000; 
+    font-size: 15px;
+    
+
+}
+.content .container .haves .hav3 .media .media-post .writer h5:hover{
+    color: #01017a;
+
+}
+.content .container .haves .hav3 .media .media-post .writer p {
+    color: #336869;
+
+}
+
+.content .container .haves .hav4{
+    background-color: #fbf9ff;
+    margin-top: 50px;
+    width: 70%;
+
+}
+.content .container .haves .hav4 h6{
+    font-size: 20px;
+    margin-left: 10px;
+    padding-top: 20px;
+
+}
+.content .container .haves .hav4 hr {
+    font-size: 10px;
+    margin-left: 10px;
+    width: 70%;
+}
+.content .container .haves .hav4 .listB{
+    margin-left: 20px;
+
+}
+.content .container .haves .hav4 .listB li{
+    display: inline-block;
+    
+
+}
+.content .container .haves .hav4 .listB li a{
+    text-decoration: none;
+    display: inline-block;
+    border: 1px solid #eee;
+    background: #fff;
+    padding: 4px 20px;
+    margin-bottom: 8px;
+    margin-right: 3px;
+    transition: all .3s ease 0s;
+    color: #888;
+    font-size: 13px;
+}
+
+.content .container .haves .hav4 .listB li a:hover{
+    background-color: #1f1f96;
+    color: #f0e9dc;
+
+}
+
+.content .container .haves .hav5{
+    background-color: #fbf9ff;
+    margin-top: 50px;
+    width: 70%;
+    height: 270px;
+
+}
+.content .container .haves .hav5 p{
+    font-size: 20px;
+    margin-left: 10px;
+    padding-top: 20px;
+
+}
+.content .container .haves .hav5 hr {
+    font-size: 10px;
+    margin-left: 10px;
+    width: 70%;
+}
+.content .container .haves .hav5 .listA{
+    margin-left: 20px;
+
+}
+
+.content .container .haves .hav6{
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 40px;
+    width: 300px;
+    background-color: #fbf9ff; 
+    
+    
+}
+.content .container .haves .hav6 p{
+    font-size: 20px;
+    margin-left: 10px;
+    padding-top: 20px;
+
+}
+.content .container .haves .hav6 hr {
+    font-size: 10px;
+    margin-left: 10px;
+    width: 70%;
+}
+.content .container .haves .hav6 input{
+    height: 50px;
+    padding: 30px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    
+}
+.content .container .haves .hav6 button{
+    height: 40px;
+    text-align: center;
+    background: #fbf9ff;
+    border-color: #4b4ba7;
+    padding-top: 0px;
+    margin-bottom: 30px;
+    width: 200px;
+    margin-left: 10px;
+    
+    
+}
+.content .container .haves .hav6 button:hover{
+    background-color: #9428ca;
+    color: #faf2f2;
+}
+/*-- end section 2 --*/
+
+
+/*-- give footrt some style --*/
+footer{
+    background-color: #000000;
+    background-size: cover;
+    margin-top: 100px;
+    padding:100px;
+    
+
+}
+footer .end{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    
+}
+footer .end ul{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    color: #ffffff;
+
+}
+footer .end ul{
+    float: left;
+    list-style: none;
+    display: inline-flex;
+    
+}
+footer .end ul li{
+    width: 70px;
+    margin: 10px;
+    padding: 10px;
+    
+
+}
+footer .end ul li a{
+    text-decoration: none;
+    color: #ffffff;
+}
+footer .end ul li a:hover{
+color: #615cfd;
+}
+footer .end ul li:hover{
+    border-radius: 3px;
+}
+footer .end .socail_links{
+    display: grid;
+    grid-template-columns:repeat(4, 1fr);
+    text-align: center;
+    box-sizing: border-box;
+
+}
+footer .end .socail_links li{
+    border-color: #f0f8ff;
+
+
+
+}
+footer .end .socail_links li:hover{
+    color:#615cfd;
+}
+footer hr {
+    border: none;
+    height: 1px;
+    color: #333; 
+    background-color: #333; 
+}
+
+footer  p{
+    color: #ffffff;
+    text-align: center;
+    margin-top: 40px;
+
+}
+footer  p span{
+    color: #8a2be2;
+}
+
+/*-- end footer --*/
+/*-- end css style --*/

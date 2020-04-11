@@ -1,0 +1,525 @@
+/*-- start css grid style --*/
+*
+{
+    margin-top: 0;
+    padding: 0;
+    box-sizing: border-box;
+        
+}
+body{
+    font-family: muli,sans-serif
+    
+}
+/*-- give nav some style --*/
+.main-nav{
+    display: grid;
+    grid-template-columns:1fr 3fr 1fr;
+    grid-gap:5px;
+    margin: 0px;
+    padding: 0px;
+    background-color: #000000;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+.main-nav img
+{
+    padding-left: 30px;
+    padding-top: 20px
+}
+.main-nav div > a
+{
+    float: right;
+    color: #fff;
+    text-align: end;
+    margin-top: 28px;
+    margin-right: 50px;
+    border-bottom: 2px solid #615cfd ;
+    padding-bottom: 12px;
+    text-decoration: none;
+}
+
+
+.main-nav .logo > p{
+    float: left;
+    
+}
+.main-nav ul{
+    float: left;
+    list-style: none;
+    display: inline-flex;
+    
+}
+.main-nav ul li{
+    width: 100px;
+    margin: 15px;
+    padding: 15px;
+    
+
+}
+.main-nav ul li a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.main-nav ul li a:hover{
+color: #615cfd;
+}
+.main-nav ul li:hover{
+    border-radius: 3px;
+}
+.main-nav .mainchild{
+    display: none;
+}
+.main-nav .mainchild li > a  {
+        color : #000000 
+}
+
+.main-nav ul li:hover .mainchild{
+    display: block;
+    position: absolute;
+    background: #f0efef;
+    margin-top: 15px;
+    margin-left: -15px;
+    
+}
+.main-nav ul li:hover .mainchild ul{
+    display: block;
+    margin: 15px;
+
+}
+/*--end nav style-- */
+
+/*--start content --*/
+/*-- start style section --*/
+/*-- section 1 header--*/
+.content{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows:minmax(100px,auto) ;
+    grid-gap: 10px;
+   
+
+}
+.content .header {
+    background-image: url('https://colorlib.com/preview/theme/startup2/img/banner/banner2.png');
+    background-image: linear-gradient(#af5656);
+    background-position: center;
+    background-size: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 900px;
+    margin: 0px;
+    padding: 0px;
+    font-size: 40px;
+    padding-top: 200px;
+    
+}
+.content .header h1{
+    position: absolute;
+    color: #ece3e3;
+    left: 10%;
+    
+}
+.content .header button{
+    width: 200px;
+    height: 50px;
+    top: 500px;
+    left: 150px;
+    font-size: 20px;
+    border-radius:20px;
+    position: absolute;
+    background-color: #0b2863;
+}
+.content .header button:hover{
+    border: 1px solid transparent;
+    background-color: #d8d3cc;
+    
+}
+/*--end section 1--*/
+/*-- section 2 --*/
+.content .Mission{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    height: 300px;
+    margin-top: 100px;
+
+}
+.content .Mission h2{
+    color: #00008b;
+    text-align: center;
+}
+.content .Mission p{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #727272;
+    margin-bottom: 15px;
+    font-family: muli,sans-serif;
+
+}
+/*--end section2--*/
+/*-- section 3 --*/
+.content .About-Us{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.content .About-Us img{
+    width: 700px;
+    padding: 20px;
+    border: 1px solid #a7cfc7e3;
+    border-radius:20px;
+}
+.content .About-Us .mater{
+    color: #ffffff;
+    background-color: #080808;
+    border-radius: 20px;
+    font-size: 20px;
+    line-height: 36px;
+    padding-top: 100px;
+    padding-left: 100px;
+    
+}
+.content .About-Us .mater span{
+    font-size: 15px;
+    
+}
+.content .About-Us .mater h3{
+    font-size:30px ;
+
+}
+.content .About-Us .mater p{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #727272;
+    margin-bottom: 15px;
+    font-family: muli,sans-serif;
+
+
+}
+.content .About-Us .mater button{
+    width: 200px;
+    height: 50px;
+    top: 500px;
+    left: 150px;
+    font-size: 20px;
+    border-radius:20px;
+    background-color: #615cfd;
+    color: #ffffff;
+
+}
+.content .About-Us .mater button:hover{
+    background-color: #30131300;
+    background-color:none;
+    border: 1px solid transparent;
+}
+
+/*--end section 3--*/
+/* -- start section 4  --*/
+.content .work {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+.content .work .how{
+    text-align: left;
+    margin: 50px;
+    padding: 50px;
+    line-height: 30px;
+
+}
+.content .work .how h4{
+    font-size: 60px;
+    line-height: 50px;
+
+    
+}
+.content .work .how p{
+    color: #80a7b1;
+    font-size: 20px;
+
+}
+.content .work  input{
+    size: unset;
+}
+
+.content .work img{
+    width: 700px;
+    padding: 20px;
+    border: 1px solid #a7cfc7e3;
+    border-radius:20px;
+
+}
+/*--end section 4--*/
+/* -- start section 5  --*/
+
+.content .team h2{
+    font-size: 40px;
+    font-weight: 500;
+    text-align: center;
+    color: #8a2be2;
+}
+.content .team p{
+    font-size:20px;
+    font-weight: 500;
+    text-align: center;
+    color: #ffffff;
+    padding: 10px;
+}
+
+.content .team .container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    max-width: 1140px;
+    margin: auto;
+    position: relative;
+    min-height: 1px;
+    padding-top: 20px;
+}
+.content .team {
+    padding: 60px 15px;
+    background-color: #22252a;
+    float: left;
+    width: 100%;
+
+}
+.content .team .card{
+    width: 80%;
+    float: left;
+    padding: 0px 15px;
+}
+@media(max-width:991px){
+    .content .team .card {
+        width:50%;
+        margin-bottom:30px ;
+    }
+}
+@media(max-width:550px){
+    .content .team .card {
+        max-width:100%;
+    }
+}
+.content .team .card .box{
+    padding: 0px;
+    background-color: #2d3035;
+    border-radius: 5px;
+    padding-top: 5px;
+    transition: margin 1s ease, box-shadw 1s ease;
+
+}
+.content .team .card .box:hover{
+    margin-top: 15px;
+    box-shadow: 0px 0px 40px #000000;
+    
+}
+.content .team .card .box img{
+    width: 150px;
+    display: block;
+    margin: 10px auto;
+    border-radius: 20px;
+
+}
+.content .team .card .box h1{
+    font-size: 20px;
+    margin: 15px 0px 10px;
+    color: #ea5e71;
+    text-align: center;
+    font-weight: 700;
+
+
+}
+.content .team .card .box p{
+    font-size: 12px;
+    font-weight: 600;
+    color: #b9b9b9;
+    text-align: center;
+}
+.content .team .card .box .socail_links{
+    text-align: center;
+    text-decoration: none;
+    
+}
+.content .team .card .box .socail_links ul{
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding:20px;
+}
+.content .team .card .box .socail_links ul li{
+    border-radius:20px;
+}
+.content .team .card .box .socail_links ul i:hover{
+    color: #615cfd;
+}
+
+/*--end section 5--*/
+/* -- section 6 some info--*/
+
+.content .info{
+    background-image:url(https://colorlib.com/preview/theme/startup2/img/testmonial/banner.png);
+    text-align: center;
+    height: 600px;
+    margin: 0px;
+    padding-top: 150px;
+    color: #ffffff;
+    animation: text 10s 1;
+
+}
+.content .info p{
+    font-size: 25px;
+    
+    
+}
+@keyframes text{
+   0% {
+       letter-spacing: 30px;
+       margin-bottom: -10px;
+    }
+   30% {
+    letter-spacing: 4px;
+
+    }
+}
+
+/*--end section 6--*/
+
+/*-- section 7 make form to send massage to us--*/
+
+.content .Massage{
+    text-align: center;
+    margin-top: 150px;
+
+}
+.content .Massage h1{
+    font-weight: bold;
+    font-size: 50px;
+
+}
+.content .Massage p{
+    font-weight: initial;
+    color: #f08080;
+
+}
+.content .Massage form{
+    display: grid;
+    grid-template-columns:1fr;
+    transition-duration: 2s;
+}
+
+.content .Massage form .one input{
+    border-radius:30px;
+    width: 300px;
+    height: 50px;
+    padding: 15px;
+}
+.content .Massage form .two input{
+    display: grid;  
+    grid-template-columns: 3fr;
+    border-radius:30px;
+    width: 1000px;
+    height: 50px;
+    margin: 50px;
+    padding: 15px;
+    margin-left: 170px;
+    
+    
+}
+
+.content .Massage form .two button{
+    width: 1000px;
+    height: 50px;
+    border-radius:20px;
+    font-size: 30px;
+    background-color: #43439b;
+    transition-duration: 2s;
+    
+}
+.content .Massage form .two button:hover{
+    background-color: #ffffff;
+    border-color: #8a2be2;
+    
+}
+/*--end section 7--*/
+/*-- end section --*/
+
+/*-- give footrt some style --*/
+footer{
+    background-color: #000000;
+    background-size: cover;
+    margin-top: 100px;
+    padding:100px;
+    
+
+}
+footer .end{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    
+}
+footer .end ul{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    color: #ffffff;
+
+}
+footer .end ul{
+    float: left;
+    list-style: none;
+    display: inline-flex;
+    
+}
+footer .end ul li{
+    width: 70px;
+    margin: 10px;
+    padding: 10px;
+    
+
+}
+footer .end ul li a{
+    text-decoration: none;
+    color: #ffffff;
+}
+footer .end ul li a:hover{
+color: #615cfd;
+}
+footer .end ul li:hover{
+    border-radius: 3px;
+}
+footer .end .socail_links{
+    display: grid;
+    grid-template-columns:repeat(4, 1fr);
+    text-align: center;
+    box-sizing: border-box;
+
+}
+footer .end .socail_links li{
+    border-color: #f0f8ff;
+
+
+
+}
+footer .end .socail_links li:hover{
+    color:#615cfd;
+}
+footer hr {
+    border: none;
+    height: 1px;
+    color: #333; 
+    background-color: #333; 
+}
+
+footer  p{
+    color: #ffffff;
+    text-align: center;
+    margin-top: 40px;
+
+}
+footer  p span{
+    color: #8a2be2;
+}
+
+/*-- end footer --*/
+/*-- end css style --*/
