@@ -700,3 +700,149 @@ margin-right: 10px;
  position: relative;
     left: 80px;
    }
+
+
+
+
+   
+/*---- start second part of Elements ----*/
+
+/* start definition */
+.container
+{
+    width: 1117px ;
+    margin: auto
+}
+.definition
+{
+    margin: 40px 0px ;
+}
+.definition , .quot , .table
+{
+    font-family: "Roboto", sans-serif;
+}
+.definition h2 , h3 
+{
+    text-transform: capitalize;
+    color: #1F1F1F;
+    line-height: 30px;
+    font-weight: 500
+}
+.definition .sec 
+{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 17px
+}
+.definition .sec p
+{
+font-size: 16px;
+color: #828080;
+line-height: 25px;
+}
+.definition hr , .container hr
+{
+    margin: 45px 0;
+    background-color: #f8f9fa;
+    height: 1px;
+    border: none
+}
+/* end definition */
+
+/* start quot */
+.quot h3 , .table h3
+{
+    text-transform: capitalize;
+    color: #1F1F1F;
+    line-height: 30px;
+    font-weight: 500;
+    font-size: 26px;
+}
+.quot blockquote
+{
+    background-color: #828080;
+    border-left: 2px solid #ff5e13;
+    margin: 0;
+    padding: 30px 50px 30px 30px;
+    background-color: #f9f9ff;
+    line-height: 25px;
+    color: #313131
+}
+/* end quot */
+
+/* start table */
+.table .country
+{
+    background-color: #f9f9ff
+}
+.table .country .head_row , .table .country .country_row
+{
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr 3fr ;
+    border-bottom: 1px solid #edf3fd;
+    padding: 15px 15px 15px 25px;
+}
+.table .country .head_row > *
+{
+    color : #415094 ;
+    font-size: 17px;
+    font-weight: 500;
+    text-transform: uppercase
+}
+.table .country .country_row .prog_tap .prog_1 ,
+.table .country .country_row .prog_tap .prog_2 ,
+.table .country .country_row .prog_tap .prog_3 ,
+.table .country .country_row .prog_tap .prog_4 ,
+.table .country .country_row .prog_tap .prog_5 ,
+.table .country .country_row .prog_tap .prog_6 ,
+.table .country .country_row .prog_tap .prog_7 ,
+.table .country .country_row .prog_tap .prog_8
+
+{
+     height: 5px;
+}
+.table .country .country_row .prog_tap .prog_1 
+{
+	 width: 80%;
+	 background-color: #6382e6;
+}
+
+.table .country .country_row .prog_tap .prog_2 
+{
+	background-color: #e66686 ;
+	width: 30%
+}
+.table .country .country_row .prog_tap .prog_3 
+{
+	background-color: #f09359;
+	width: 55%
+}
+.table .country .country_row .prog_tap .prog_4
+{
+	background-color: #73fbaf;
+	width: 60%
+}
+.table .country .country_row .prog_tap .prog_5
+{
+	background-color: #73fbaf;
+	width: 40%
+}
+.table .country .country_row .prog_tap .prog_6 
+{
+	background-color: #6382e6;
+	width: 70%
+}
+.table .country .country_row .prog_tap .prog_7 
+{
+	background-color: #a367e7;
+	width: 30%
+}
+.table .country .country_row .prog_tap .prog_8 
+{
+	background-color: #e66686;
+	width: 60%
+}
+/* end table */
+
+
+/*---- end second part of Elements ----*/
